@@ -1,0 +1,52 @@
+html {
+    font-size: 32px;
+    font-family: "Roboto",monospace;
+    color: white;
+}
+
+body {
+    margin: 0px;
+    background-image: url('../img/bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    text-align: center;
+    padding: 1rem 20vw;
+}
+
+.container {
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    width: 20vw;
+    display: block;
+}
+
+.image {
+    min-width: 20vw;
+}
+
+button {
+    width: 15vw;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-width: 0;
+    background-color: green;
+    color: white;
+}
+
+.glass {
+    position: relative;
+    top: -9rem;
+    left: -2rem;
+    margin-top: -10rem;
+    max-width: 9rem;
+}
